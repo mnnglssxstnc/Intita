@@ -2,17 +2,11 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face {
+    font-family: 'PhoenicaSTDdemo';
+    src: url('../fonts/phoenicastddemo.otf') format('opentype');
+}
 body {
 	padding: 40px 80px 4px 80px;
-	font-family: 'Futura PT', sans-serif;
-}
-td {
-    height: 0;
-
-    &:after, &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
+	font-family: 'PhoenicaSTDdemo', sans-serif;
 }
