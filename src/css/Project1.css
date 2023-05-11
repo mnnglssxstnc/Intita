@@ -7,6 +7,98 @@
     src: url('../fonts/phoenicastddemo.otf') format('opentype');
 }
 body {
-	padding: 40px 80px 4px 80px;
-	font-family: 'PhoenicaSTDdemo', sans-serif;
+    background-color: #E2E2E2;
+    margin: 0;
+    padding: 0;
+    font-family: 'PhoenicaSTDdemo', sans-serif;
+}
+  
+.login-box {
+    background-color: white;
+    width: 425px;
+    margin: 150px auto;
+    padding: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.login-box div{
+    padding: 40px;
+    padding-bottom: 15px;
+}
+
+.login-box h2{
+    margin-bottom: 35px;
+    font-weight: 400;
+    color: #414140;
+}
+  
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+  
+.login-box a {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #858585;
+    text-decoration: none;
+}
+  
+.login-box button[type="submit"] {
+    width: 50%;
+    background-color: #FF5723;
+    font-family: 'PhoenicaSTDdemo', sans-serif;
+    font-size: 11px;
+    color: white;
+    padding: 18px 0px;
+    border: none;
+    cursor: pointer;
+    float: right;
+    border-bottom-right-radius: 5px;
+}
+  
+.login-box a.register {
+    width: 50%;
+    background-color: #673AB8;
+    float: left;
+    font-size: 11px;
+    color: white;
+    padding: 18px 0px;
+    text-decoration: none;
+    border-bottom-left-radius: 5px;
+}
+
+#circle1 {
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    z-index: -1;
+}
+#circle2 {
+    background-color: rgb(255, 0, 0);
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+    z-index: -1;
+}
+#circle3 {
+    background-color: rgb(17, 255, 0);
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    z-index: -3;
+}
+#circle4 {
+    background-color: rgb(255, 255, 0);
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    z-index: -2;
 }
