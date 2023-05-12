@@ -8,24 +8,27 @@
 		<link rel="stylesheet" href="src/css/Project1.css">
 	</head>
 	<body>
-		<div class="login-box">
-			<form action="login.php" method="POST">
-				<div>
-					<h2>LOGIN</h2>
-					<label for="email"></label>
-					<input type="email" id="email" name="email" placeholder="EMAIL" required>
-					<label for="password"></label>
-					<input type="password" id="password" name="password" placeholder="PASSWORD" required>
-					<a href="forgot-password.php">FORGOT YOUR PASSWORD ?</a>
-				</div>
-				<a href="register.php" class="register">REGISTER</a>
-				<button type="submit">SIGN IN</button>
-			</form>
+		<div class="login-wrapper">
+			<div class="circle circle-1"></div>
+			<div class="circle circle-2"></div>
+			<div class="circle circle-3"></div>
+			<div class="circle circle-4"></div>
+			
+			<div class="login-box">
+				<form action="login.php" method="POST">
+					<div>
+						<h2>LOGIN</h2>
+						<label for="email"></label>
+						<input type="email" id="email" name="email" placeholder="EMAIL" required>
+						<label for="password"></label>
+						<input type="password" id="password" name="password" placeholder="PASSWORD" required>
+						<a href="forgot-password.php">FORGOT YOUR PASSWORD ?</a>
+					</div>
+					<a href="register.php" class="register">REGISTER</a>
+					<button type="submit">SIGN IN</button>
+				</form>
+			</div>
 		</div>
-		<div id="circle1"></div>
-		<div id="circle2"></div>
-		<div id="circle3"></div>
-		<div id="circle4"></div>
 		<script src="src/js/Project1.js"></script>
 		
 		
