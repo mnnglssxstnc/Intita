@@ -67,6 +67,10 @@ body {
     color: #858585;
     text-decoration: none;
 }
+
+.login-box a:hover {
+    text-decoration: underline;
+}
   
 .login-box button[type="submit"] {
     width: 50%;
@@ -79,8 +83,17 @@ body {
     cursor: pointer;
     float: right;
     border-bottom-right-radius: 5px;
+    transition: background-color 0.3s ease;
 }
-  
+
+.login-box button[type="submit"]:hover {
+    background-color: #eb455b;
+}
+
+.login-box button[type="submit"]:active {
+    background-color: #c23a4c;
+}
+
 .login-box a.register {
     width: 50%;
     background-color: #673AB8;
@@ -90,7 +103,17 @@ body {
     padding: 18px 0px;
     text-decoration: none;
     border-bottom-left-radius: 5px;
+    transition: background-color 0.3s ease;
 }
+
+.login-box a.register:hover {
+    background-color: #616DB5;
+}
+
+.login-box a.register:active {
+    background-color: #4a548b;
+}
+
 .circle {
     position: absolute;
     border-radius: 50%;
